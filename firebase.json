@@ -1,0 +1,51 @@
+{
+  "hosting": {
+    "source": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "types",
+      "tests"
+    ],
+    "frameworksBackend": {
+      "region": "asia-east1",
+      "memory": "1GiB",
+      "cpu": 1,
+      "minInstances": 0,
+      "timeoutSeconds": 120
+    },
+    "i18n": {
+      "root": "/public/locales"
+    },
+    "headers": [
+      {
+        "source": "**/*.html",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "**/*.@(js|json)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png|svg|webp|eot|otf|ttf|ttc|woff|woff2|css|font.css)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public,max-age=15552000,must-revalidate"
+          }
+        ]
+      }
+    ]
+  }
+}

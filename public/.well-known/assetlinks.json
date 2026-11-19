@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.dekitabi",
+        "sha256_cert_fingerprints": ["DE:DF:9F:22:12:94:AC:09:44:8B:3E:D6:0E:CF:38:CC:3F:DE:2D:DC:10:92:43:73:0D:8B:2D:BE:D5:D5:23:2E"]
+      }
+    }]

@@ -1,0 +1,84 @@
+import Skeleton from "@mui/material/Skeleton";
+import { ToursStyles } from "./styles/ToursStyles";
+const TourListSkeleton = () => {
+  return (
+    <ToursStyles>
+      <div className="tours-list">
+        <Skeleton
+          variant="rounded"
+          width={"calc(100%-20px)"}
+          height={250}
+          className="tour"
+        />
+
+        <Skeleton
+          variant="rounded"
+          width={"calc(100%-20px)"}
+          height={250}
+          className="tour"
+        />
+        <Skeleton
+          variant="rounded"
+          width={"calc(100%-20px)"}
+          height={250}
+          className="tour"
+        />
+        <Skeleton
+          variant="rounded"
+          width={"calc(100%-20px)"}
+          height={250}
+          className="tour"
+        />
+        <Skeleton
+          variant="rounded"
+          width={"calc(100%-20px)"}
+          height={250}
+          className="tour"
+        />
+        <Skeleton
+          variant="rounded"
+          width={"calc(100%-20px)"}
+          height={250}
+          className="tour"
+        />
+        <Skeleton
+          variant="rounded"
+          width={"calc(100%-20px)"}
+          height={250}
+          className="tour"
+        />
+        <Skeleton
+          variant="rounded"
+          width={"calc(100%-20px)"}
+          height={250}
+          className="tour"
+        />
+        <Skeleton
+          variant="rounded"
+          width={"calc(100%-20px)"}
+          height={250}
+          className="tour"
+        />
+        <Skeleton
+          variant="rounded"
+          width={"calc(100%-20px)"}
+          height={250}
+          className="tour"
+        />
+        <Skeleton
+          variant="rounded"
+          width={"calc(100%-20px)"}
+          height={250}
+          className="tour"
+        />
+        <Skeleton
+          variant="rounded"
+          width={"calc(100%-20px)"}
+          height={250}
+          className="tour"
+        />
+      </div>
+    </ToursStyles>
+  );
+};
+export default TourListSkeleton;

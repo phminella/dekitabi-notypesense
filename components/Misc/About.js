@@ -1,0 +1,155 @@
+import GuidesList from "./Guides";
+import { AboutStyles } from "./styles/AboutStyles";
+import Image from "next/image";
+import { useTranslation } from "next-i18next";
+const About = () => {
+  const { t } = useTranslation();
+  return (
+    <AboutStyles>
+      <Image
+        src="/img/logo.png"
+        height={65}
+        width={200}
+        alt="logo"
+        priority={true}
+        className="logo"
+      />
+      <h1>{t("about")}</h1>
+      <div className="about-wrapper">
+        <h2>{t("whoAreWe")}</h2>
+        <p>{t("whoAreWeMsg")}</p>
+        <Image
+          height={80}
+          width={80}
+          src="/img/icon-question.svg"
+          alt="question"
+          className="title-img"
+        />
+        <h2>{t("whyDekitabi")}</h2>
+        <p>{t("whyDekitabiMsg1")}</p>
+        <ul className="dekitabi-list">
+          <li>
+            <Image
+              height={20}
+              width={20}
+              src="/img/icon-check.svg"
+              alt="item-1"
+              className="checked"
+            />
+            {t("whyDekitabiMsg2")}
+          </li>
+          <li>
+            <Image
+              height={20}
+              width={20}
+              src="/img/icon-check.svg"
+              alt="item-2"
+              className="checked"
+            />
+            {t("whyDekitabiMsg3")}
+          </li>
+          <li>
+            <Image
+              height={20}
+              width={20}
+              src="/img/icon-check.svg"
+              alt="item-3"
+              className="checked"
+            />
+            {t("whyDekitabiMsg4")}
+          </li>
+        </ul>
+        <p>{t("whyDekitabiMsg5")}</p>
+        <Image
+          height={80}
+          width={80}
+          src="/img/icon-japan.svg"
+          alt="japan-map"
+          className="title-img"
+        />
+        <h2>{t("realJapan")}</h2>
+        <p>{t("realJapanMsg")}</p>
+        <ul className="spot-list">
+          <li>
+            <Image
+              height={200}
+              width={200}
+              src="/img/about/shikoku.png"
+              alt="shikoku"
+              quality={80}
+              className="spot"
+            />
+            {t("88shikoku")}
+          </li>
+          <li>
+            <Image
+              height={200}
+              width={200}
+              src="/img/about/hakodate.png"
+              alt="hakodate"
+              quality={80}
+              className="spot"
+            />
+            Hakodate Motomachi
+          </li>
+          <li>
+            <Image
+              height={200}
+              width={200}
+              src="/img/about/nakasendo.png"
+              alt="nakasendo"
+              quality={80}
+              className="spot"
+            />
+            Nakasendo
+          </li>
+          <li>
+            <Image
+              height={200}
+              width={200}
+              src="/img/about/ainokura.png"
+              alt="ainokura"
+              quality={80}
+              className="spot"
+            />
+            Ainokura
+          </li>
+          <li>
+            <Image
+              height={200}
+              width={200}
+              src="/img/about/ginzan.png"
+              alt="ginzan"
+              quality={80}
+              className="spot"
+            />
+            Ginzan Onsen
+          </li>
+          <li>
+            <Image
+              height={200}
+              width={200}
+              src="/img/about/ise.png"
+              alt="ise"
+              quality={80}
+              className="spot"
+            />
+            Ise
+          </li>
+        </ul>
+        <p>{t("realJapanMsg2")}</p>
+        <Image
+          height={80}
+          width={80}
+          src="/img/icon-profile-filled.svg"
+          alt="real-japan"
+          className="title-img"
+        />
+        <h2>{t("bookGuides")}</h2>
+        <p>{t("bookGuidesMsg")}</p>
+      </div>
+      <GuidesList />
+    </AboutStyles>
+  );
+};
+export default About;

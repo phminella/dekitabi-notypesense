@@ -1,0 +1,55 @@
+.SingleDatePicker_picker__portal {
+  background-color: rgba(25, 118, 210, 0.7);
+  z-index: 9999;
+}
+.CalendarDay__highlighted_calendar {
+  background: lightgreen;
+  color: var(--darkBlue);
+}
+.CalendarDay__highlighted_calendar:hover {
+  background: var(--darkBlue);
+  color: white;
+}
+.CalendarDay__selected:hover {
+  background: var(--darkBlue);
+  color: white;
+}
+.CalendarDay__default:hover {
+  background: var(--darkBlue);
+  color: white;
+}
+.label-wrapper {
+  padding: 0 20px 20px 20px;
+}
+.label-wrapper a {
+  color: var(--blue);
+  text-decoration: underline;
+  font-size: 1em;
+}
+@media (hover: hover) and (pointer: fine) {
+  .label-wrapper a:hover {
+    color: var(--darkBlue);
+  }
+}
+.label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.label .square {
+  width: 25px;
+  height: 25px;
+  background: lightgreen;
+}
+.label-msg {
+  padding-left: 30px;
+  font-size: 0.9em;
+  color: gray;
+}
+.CalendarDay__selected {
+  background: var(--blue);
+  color: white;
+}
+.DayPickerKeyboardShortcuts_buttonReset::before {
+  border-right-color: var(--blue);
+}

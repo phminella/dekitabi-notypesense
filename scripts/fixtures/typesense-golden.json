@@ -1,0 +1,1701 @@
+[
+  {
+    "name": "users-base",
+    "collection": "users",
+    "params": {
+      "q": "",
+      "query_by": "firstname, lastname",
+      "filter_by": "guide:=\"true\" && verified:='true' && states:=広島県",
+      "sort_by": "ratingCounter:desc",
+      "per_page": 12,
+      "page": 1,
+      "exclude_fields": "availability, states"
+    },
+    "found": 3,
+    "out_of": 37,
+    "hitIds": [
+      "HDForz43D6Z56iupwPoPorJAUug1",
+      "0sPgQSAPAxenrQ1tlLoIKCvxoYC3",
+      "AOUUYDSqaFgHbv9iobBh6WWIzmn1"
+    ],
+    "sortKeyValues": [
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  },
+  {
+    "name": "users-language",
+    "collection": "users",
+    "params": {
+      "q": "*",
+      "query_by": "firstname, lastname",
+      "filter_by": "guide:=\"true\" && verified:='true' && languages:=[`English`]",
+      "sort_by": "ratingScore:desc",
+      "per_page": 24,
+      "page": 1
+    },
+    "found": 34,
+    "out_of": 37,
+    "hitIds": [
+      "A5o325Z0KuUWMgVt597mYSbGKm52",
+      "6hsV1Ea8fcSz4nQ3du4QKnOQ5pI2",
+      "nvUh9EEY09Oogca0x0SqXUQf1dx2",
+      "2XuCo7FlI1XisWluuguNb00uYRx1",
+      "H5YBSiXtXNWMCuyLBSmEFyMdR2Q2",
+      "0X962YHQqUbvrStaG8mdJCBiC6Q2",
+      "Bt4hNZIxpeg7j23psWAGBvvw0Xh1",
+      "SzFVheMTT7bRqefWMUxtRcX9QLB3",
+      "BJ4z7MyQWEdlnol94uWYQPzFzam2",
+      "KMGEtaqzC3UEiGbFNBJfePJVGVx1",
+      "auSKIxITl5V8YTNLEkjbbUKUsp33",
+      "8Y2Kyj3BGGT0Y776CQjKiXbzapo1",
+      "iTji53GQTRPM1P2YKtjWyFZlRO42",
+      "KsksPACwvfcDCff2U4NpA0T5r3I2",
+      "BDmqF5lD7EdgHP5qwxDpiFvC2tr2",
+      "HDForz43D6Z56iupwPoPorJAUug1",
+      "ALr4Isyl1wOj9iWNEPOwhesHiUT2",
+      "KWzr2MAqOWRkCsU7vwI9qlsMQUX2",
+      "9qYbR4zcAtP7zzx7M1j3Xn5Xw6i2",
+      "tOBXmxdUZrdGNK4H0fIQWdkL4qd2",
+      "0sPgQSAPAxenrQ1tlLoIKCvxoYC3",
+      "kT1GAf3yMWUOs35umAl0hNeTOfl2",
+      "hsbcgn4PrYTJTFTxp2yA17ydtGA2",
+      "awUoAVSk8EgLEjCT5dsVWczFPzJ2"
+    ],
+    "sortKeyValues": [
+      [
+        2
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  },
+  {
+    "name": "users-fees-and-qualifications",
+    "collection": "users",
+    "params": {
+      "q": "",
+      "query_by": "firstname, lastname",
+      "filter_by": "guide:=\"true\" && verified:='true' && fee.fullDay:[0..50000] && fee.halfDay:[0..99999] && licensed:='true'",
+      "sort_by": "fee.fullDay:asc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 27,
+    "out_of": 37,
+    "hitIds": [
+      "2XuCo7FlI1XisWluuguNb00uYRx1",
+      "hsbcgn4PrYTJTFTxp2yA17ydtGA2",
+      "5dsPKqAIfRg8anQ0ZF9QKuDBLti1",
+      "0sPgQSAPAxenrQ1tlLoIKCvxoYC3",
+      "ALr4Isyl1wOj9iWNEPOwhesHiUT2",
+      "A5o325Z0KuUWMgVt597mYSbGKm52",
+      "wbwtKgx28TOq1PficdCqlALLla72",
+      "HtFW5viPfTZKi3gJblrywbJxtvG3",
+      "KWzr2MAqOWRkCsU7vwI9qlsMQUX2",
+      "6qBiUXNgZWXa4KO5ggnlkIlIHB13",
+      "iTji53GQTRPM1P2YKtjWyFZlRO42",
+      "H5YBSiXtXNWMCuyLBSmEFyMdR2Q2"
+    ],
+    "sortKeyValues": [
+      [
+        20000
+      ],
+      [
+        20000
+      ],
+      [
+        21000
+      ],
+      [
+        24000
+      ],
+      [
+        25000
+      ],
+      [
+        28000
+      ],
+      [
+        28000
+      ],
+      [
+        30000
+      ],
+      [
+        30000
+      ],
+      [
+        30000
+      ],
+      [
+        32000
+      ],
+      [
+        33000
+      ]
+    ]
+  },
+  {
+    "name": "users-transport-and-date",
+    "collection": "users",
+    "params": {
+      "q": "",
+      "query_by": "firstname, lastname",
+      "filter_by": "guide:=\"true\" && verified:=\"true\" && acceptTourFrom:<=36500 && transportIncluded:=\"true\"",
+      "sort_by": "ratingCounter:desc",
+      "per_page": 48,
+      "page": 1
+    },
+    "found": 8,
+    "out_of": 37,
+    "hitIds": [
+      "BJ4z7MyQWEdlnol94uWYQPzFzam2",
+      "auSKIxITl5V8YTNLEkjbbUKUsp33",
+      "KsksPACwvfcDCff2U4NpA0T5r3I2",
+      "BDmqF5lD7EdgHP5qwxDpiFvC2tr2",
+      "hsbcgn4PrYTJTFTxp2yA17ydtGA2",
+      "awUoAVSk8EgLEjCT5dsVWczFPzJ2",
+      "6qBiUXNgZWXa4KO5ggnlkIlIHB13",
+      "wbwtKgx28TOq1PficdCqlALLla72"
+    ],
+    "sortKeyValues": [
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  },
+  {
+    "name": "users-eval",
+    "collection": "users",
+    "params": {
+      "q": "",
+      "query_by": "firstname,lastname",
+      "filter_by": "guide:=\"true\" && verified:=\"true\"",
+      "sort_by": "_eval(uid:AOUUYDSqaFgHbv9iobBh6WWIzmn1):desc, ratingScore:desc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 37,
+    "out_of": 37,
+    "hitIds": [
+      "AOUUYDSqaFgHbv9iobBh6WWIzmn1",
+      "A5o325Z0KuUWMgVt597mYSbGKm52",
+      "6hsV1Ea8fcSz4nQ3du4QKnOQ5pI2",
+      "nvUh9EEY09Oogca0x0SqXUQf1dx2",
+      "1DRzm7maM9f7FiLupPvX6iLxw8e2",
+      "2XuCo7FlI1XisWluuguNb00uYRx1",
+      "H5YBSiXtXNWMCuyLBSmEFyMdR2Q2",
+      "0X962YHQqUbvrStaG8mdJCBiC6Q2",
+      "Bt4hNZIxpeg7j23psWAGBvvw0Xh1",
+      "SzFVheMTT7bRqefWMUxtRcX9QLB3",
+      "BJ4z7MyQWEdlnol94uWYQPzFzam2",
+      "KMGEtaqzC3UEiGbFNBJfePJVGVx1"
+    ],
+    "sortKeyValues": [
+      [
+        "AOUUYDSqaFgHbv9iobBh6WWIzmn1",
+        0
+      ],
+      [
+        "A5o325Z0KuUWMgVt597mYSbGKm52",
+        2
+      ],
+      [
+        "6hsV1Ea8fcSz4nQ3du4QKnOQ5pI2",
+        0
+      ],
+      [
+        "nvUh9EEY09Oogca0x0SqXUQf1dx2",
+        0
+      ],
+      [
+        "1DRzm7maM9f7FiLupPvX6iLxw8e2",
+        0
+      ],
+      [
+        "2XuCo7FlI1XisWluuguNb00uYRx1",
+        0
+      ],
+      [
+        "H5YBSiXtXNWMCuyLBSmEFyMdR2Q2",
+        0
+      ],
+      [
+        "0X962YHQqUbvrStaG8mdJCBiC6Q2",
+        0
+      ],
+      [
+        "Bt4hNZIxpeg7j23psWAGBvvw0Xh1",
+        0
+      ],
+      [
+        "SzFVheMTT7bRqefWMUxtRcX9QLB3",
+        0
+      ],
+      [
+        "BJ4z7MyQWEdlnol94uWYQPzFzam2",
+        0
+      ],
+      [
+        "KMGEtaqzC3UEiGbFNBJfePJVGVx1",
+        0
+      ]
+    ]
+  },
+  {
+    "name": "users-text-en-page-2",
+    "collection": "users",
+    "params": {
+      "q": "網干",
+      "query_by": "firstname, lastname",
+      "filter_by": "guide:=\"true\" && verified:=\"true\"",
+      "sort_by": "ratingCounter:desc",
+      "per_page": 12,
+      "page": 2
+    },
+    "found": 1,
+    "out_of": 37,
+    "hitIds": [],
+    "sortKeyValues": []
+  },
+  {
+    "name": "users-sort-ratingCounter-desc",
+    "collection": "users",
+    "params": {
+      "q": "",
+      "query_by": "firstname, lastname",
+      "filter_by": "guide:=\"true\" && verified:=\"true\"",
+      "sort_by": "ratingCounter:desc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 37,
+    "out_of": 37,
+    "hitIds": [
+      "A5o325Z0KuUWMgVt597mYSbGKm52",
+      "6hsV1Ea8fcSz4nQ3du4QKnOQ5pI2",
+      "nvUh9EEY09Oogca0x0SqXUQf1dx2",
+      "1DRzm7maM9f7FiLupPvX6iLxw8e2",
+      "2XuCo7FlI1XisWluuguNb00uYRx1",
+      "H5YBSiXtXNWMCuyLBSmEFyMdR2Q2",
+      "0X962YHQqUbvrStaG8mdJCBiC6Q2",
+      "Bt4hNZIxpeg7j23psWAGBvvw0Xh1",
+      "SzFVheMTT7bRqefWMUxtRcX9QLB3",
+      "BJ4z7MyQWEdlnol94uWYQPzFzam2",
+      "KMGEtaqzC3UEiGbFNBJfePJVGVx1",
+      "auSKIxITl5V8YTNLEkjbbUKUsp33"
+    ],
+    "sortKeyValues": [
+      [
+        1
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  },
+  {
+    "name": "users-sort-ratingScore-desc",
+    "collection": "users",
+    "params": {
+      "q": "",
+      "query_by": "firstname, lastname",
+      "filter_by": "guide:=\"true\" && verified:=\"true\"",
+      "sort_by": "ratingScore:desc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 37,
+    "out_of": 37,
+    "hitIds": [
+      "A5o325Z0KuUWMgVt597mYSbGKm52",
+      "6hsV1Ea8fcSz4nQ3du4QKnOQ5pI2",
+      "nvUh9EEY09Oogca0x0SqXUQf1dx2",
+      "1DRzm7maM9f7FiLupPvX6iLxw8e2",
+      "2XuCo7FlI1XisWluuguNb00uYRx1",
+      "H5YBSiXtXNWMCuyLBSmEFyMdR2Q2",
+      "0X962YHQqUbvrStaG8mdJCBiC6Q2",
+      "Bt4hNZIxpeg7j23psWAGBvvw0Xh1",
+      "SzFVheMTT7bRqefWMUxtRcX9QLB3",
+      "BJ4z7MyQWEdlnol94uWYQPzFzam2",
+      "KMGEtaqzC3UEiGbFNBJfePJVGVx1",
+      "auSKIxITl5V8YTNLEkjbbUKUsp33"
+    ],
+    "sortKeyValues": [
+      [
+        2
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  },
+  {
+    "name": "users-sort-fee-halfDay-asc",
+    "collection": "users",
+    "params": {
+      "q": "",
+      "query_by": "firstname, lastname",
+      "filter_by": "guide:=\"true\" && verified:=\"true\"",
+      "sort_by": "fee.halfDay:asc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 37,
+    "out_of": 37,
+    "hitIds": [
+      "AOUUYDSqaFgHbv9iobBh6WWIzmn1",
+      "8Y2Kyj3BGGT0Y776CQjKiXbzapo1",
+      "2XuCo7FlI1XisWluuguNb00uYRx1",
+      "hsbcgn4PrYTJTFTxp2yA17ydtGA2",
+      "5dsPKqAIfRg8anQ0ZF9QKuDBLti1",
+      "0sPgQSAPAxenrQ1tlLoIKCvxoYC3",
+      "HtFW5viPfTZKi3gJblrywbJxtvG3",
+      "ALr4Isyl1wOj9iWNEPOwhesHiUT2",
+      "6qBiUXNgZWXa4KO5ggnlkIlIHB13",
+      "nvUh9EEY09Oogca0x0SqXUQf1dx2",
+      "KWzr2MAqOWRkCsU7vwI9qlsMQUX2",
+      "wbwtKgx28TOq1PficdCqlALLla72"
+    ],
+    "sortKeyValues": [
+      [
+        0
+      ],
+      [
+        5000
+      ],
+      [
+        8000
+      ],
+      [
+        10000
+      ],
+      [
+        12000
+      ],
+      [
+        12000
+      ],
+      [
+        15000
+      ],
+      [
+        15000
+      ],
+      [
+        15000
+      ],
+      [
+        16000
+      ],
+      [
+        18000
+      ],
+      [
+        18000
+      ]
+    ]
+  },
+  {
+    "name": "users-sort-fee-halfDay-desc",
+    "collection": "users",
+    "params": {
+      "q": "",
+      "query_by": "firstname, lastname",
+      "filter_by": "guide:=\"true\" && verified:=\"true\"",
+      "sort_by": "fee.halfDay:desc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 37,
+    "out_of": 37,
+    "hitIds": [
+      "9psuDXVriXZrb32CKZb6bpExE142",
+      "HDForz43D6Z56iupwPoPorJAUug1",
+      "6hsV1Ea8fcSz4nQ3du4QKnOQ5pI2",
+      "v89N5c109maX5SKU3zSZUbyl2FB2",
+      "8QoNWjwy4KQdS0bc96fsdKgveVo2",
+      "z3LC0TDtjZVwlTf8KWZBqBL5NT02",
+      "KsksPACwvfcDCff2U4NpA0T5r3I2",
+      "1DRzm7maM9f7FiLupPvX6iLxw8e2",
+      "0X962YHQqUbvrStaG8mdJCBiC6Q2",
+      "Bt4hNZIxpeg7j23psWAGBvvw0Xh1",
+      "SzFVheMTT7bRqefWMUxtRcX9QLB3",
+      "BJ4z7MyQWEdlnol94uWYQPzFzam2"
+    ],
+    "sortKeyValues": [
+      [
+        50000
+      ],
+      [
+        35000
+      ],
+      [
+        30000
+      ],
+      [
+        30000
+      ],
+      [
+        27500
+      ],
+      [
+        27000
+      ],
+      [
+        26000
+      ],
+      [
+        25000
+      ],
+      [
+        25000
+      ],
+      [
+        25000
+      ],
+      [
+        25000
+      ],
+      [
+        25000
+      ]
+    ]
+  },
+  {
+    "name": "users-sort-fee-fullDay-asc",
+    "collection": "users",
+    "params": {
+      "q": "",
+      "query_by": "firstname, lastname",
+      "filter_by": "guide:=\"true\" && verified:=\"true\"",
+      "sort_by": "fee.fullDay:asc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 37,
+    "out_of": 37,
+    "hitIds": [
+      "8Y2Kyj3BGGT0Y776CQjKiXbzapo1",
+      "2XuCo7FlI1XisWluuguNb00uYRx1",
+      "hsbcgn4PrYTJTFTxp2yA17ydtGA2",
+      "5dsPKqAIfRg8anQ0ZF9QKuDBLti1",
+      "0sPgQSAPAxenrQ1tlLoIKCvxoYC3",
+      "ALr4Isyl1wOj9iWNEPOwhesHiUT2",
+      "nvUh9EEY09Oogca0x0SqXUQf1dx2",
+      "A5o325Z0KuUWMgVt597mYSbGKm52",
+      "wbwtKgx28TOq1PficdCqlALLla72",
+      "1DRzm7maM9f7FiLupPvX6iLxw8e2",
+      "HtFW5viPfTZKi3gJblrywbJxtvG3",
+      "KWzr2MAqOWRkCsU7vwI9qlsMQUX2"
+    ],
+    "sortKeyValues": [
+      [
+        10000
+      ],
+      [
+        20000
+      ],
+      [
+        20000
+      ],
+      [
+        21000
+      ],
+      [
+        24000
+      ],
+      [
+        25000
+      ],
+      [
+        27000
+      ],
+      [
+        28000
+      ],
+      [
+        28000
+      ],
+      [
+        30000
+      ],
+      [
+        30000
+      ],
+      [
+        30000
+      ]
+    ]
+  },
+  {
+    "name": "users-sort-fee-fullDay-desc",
+    "collection": "users",
+    "params": {
+      "q": "",
+      "query_by": "firstname, lastname",
+      "filter_by": "guide:=\"true\" && verified:=\"true\"",
+      "sort_by": "fee.fullDay:desc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 37,
+    "out_of": 37,
+    "hitIds": [
+      "soI4iRA54vZNEqcLtPSsEk7DVnr1",
+      "9qYbR4zcAtP7zzx7M1j3Xn5Xw6i2",
+      "a9mOw1f8pPMP4rpJbpaBYfXpDt92",
+      "HDForz43D6Z56iupwPoPorJAUug1",
+      "8QoNWjwy4KQdS0bc96fsdKgveVo2",
+      "AOUUYDSqaFgHbv9iobBh6WWIzmn1",
+      "6hsV1Ea8fcSz4nQ3du4QKnOQ5pI2",
+      "z3LC0TDtjZVwlTf8KWZBqBL5NT02",
+      "v89N5c109maX5SKU3zSZUbyl2FB2",
+      "0X962YHQqUbvrStaG8mdJCBiC6Q2",
+      "BDmqF5lD7EdgHP5qwxDpiFvC2tr2",
+      "kT1GAf3yMWUOs35umAl0hNeTOfl2"
+    ],
+    "sortKeyValues": [
+      [
+        60000
+      ],
+      [
+        55000
+      ],
+      [
+        55000
+      ],
+      [
+        50000
+      ],
+      [
+        50000
+      ],
+      [
+        50000
+      ],
+      [
+        45000
+      ],
+      [
+        45000
+      ],
+      [
+        45000
+      ],
+      [
+        40000
+      ],
+      [
+        40000
+      ],
+      [
+        40000
+      ]
+    ]
+  },
+  {
+    "name": "users-sort-maxPeople-desc",
+    "collection": "users",
+    "params": {
+      "q": "",
+      "query_by": "firstname, lastname",
+      "filter_by": "guide:=\"true\" && verified:=\"true\"",
+      "sort_by": "maxPeople:desc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 37,
+    "out_of": 37,
+    "hitIds": [
+      "nvUh9EEY09Oogca0x0SqXUQf1dx2",
+      "1DRzm7maM9f7FiLupPvX6iLxw8e2",
+      "5dsPKqAIfRg8anQ0ZF9QKuDBLti1",
+      "8Y2Kyj3BGGT0Y776CQjKiXbzapo1",
+      "6qBiUXNgZWXa4KO5ggnlkIlIHB13",
+      "8QoNWjwy4KQdS0bc96fsdKgveVo2",
+      "v89N5c109maX5SKU3zSZUbyl2FB2",
+      "9psuDXVriXZrb32CKZb6bpExE142",
+      "wbwtKgx28TOq1PficdCqlALLla72",
+      "2XuCo7FlI1XisWluuguNb00uYRx1",
+      "BJ4z7MyQWEdlnol94uWYQPzFzam2",
+      "A5o325Z0KuUWMgVt597mYSbGKm52"
+    ],
+    "sortKeyValues": [
+      [
+        10
+      ],
+      [
+        10
+      ],
+      [
+        10
+      ],
+      [
+        10
+      ],
+      [
+        10
+      ],
+      [
+        10
+      ],
+      [
+        10
+      ],
+      [
+        10
+      ],
+      [
+        10
+      ],
+      [
+        8
+      ],
+      [
+        8
+      ],
+      [
+        8
+      ]
+    ]
+  },
+  {
+    "name": "users-sort-licensed-desc",
+    "collection": "users",
+    "params": {
+      "q": "",
+      "query_by": "firstname, lastname",
+      "filter_by": "guide:=\"true\" && verified:=\"true\"",
+      "sort_by": "licensed:desc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 37,
+    "out_of": 37,
+    "hitIds": [
+      "6hsV1Ea8fcSz4nQ3du4QKnOQ5pI2",
+      "2XuCo7FlI1XisWluuguNb00uYRx1",
+      "H5YBSiXtXNWMCuyLBSmEFyMdR2Q2",
+      "Bt4hNZIxpeg7j23psWAGBvvw0Xh1",
+      "SzFVheMTT7bRqefWMUxtRcX9QLB3",
+      "BJ4z7MyQWEdlnol94uWYQPzFzam2",
+      "KMGEtaqzC3UEiGbFNBJfePJVGVx1",
+      "auSKIxITl5V8YTNLEkjbbUKUsp33",
+      "5dsPKqAIfRg8anQ0ZF9QKuDBLti1",
+      "iTji53GQTRPM1P2YKtjWyFZlRO42",
+      "KsksPACwvfcDCff2U4NpA0T5r3I2",
+      "HtFW5viPfTZKi3gJblrywbJxtvG3"
+    ],
+    "sortKeyValues": [
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ]
+    ]
+  },
+  {
+    "name": "users-sort-canDrive-desc",
+    "collection": "users",
+    "params": {
+      "q": "",
+      "query_by": "firstname, lastname",
+      "filter_by": "guide:=\"true\" && verified:=\"true\"",
+      "sort_by": "canDrive:desc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 37,
+    "out_of": 37,
+    "hitIds": [
+      "H5YBSiXtXNWMCuyLBSmEFyMdR2Q2",
+      "SzFVheMTT7bRqefWMUxtRcX9QLB3",
+      "BJ4z7MyQWEdlnol94uWYQPzFzam2",
+      "auSKIxITl5V8YTNLEkjbbUKUsp33",
+      "8Y2Kyj3BGGT0Y776CQjKiXbzapo1",
+      "iTji53GQTRPM1P2YKtjWyFZlRO42",
+      "KsksPACwvfcDCff2U4NpA0T5r3I2",
+      "HtFW5viPfTZKi3gJblrywbJxtvG3",
+      "BDmqF5lD7EdgHP5qwxDpiFvC2tr2",
+      "ALr4Isyl1wOj9iWNEPOwhesHiUT2",
+      "KWzr2MAqOWRkCsU7vwI9qlsMQUX2",
+      "0sPgQSAPAxenrQ1tlLoIKCvxoYC3"
+    ],
+    "sortKeyValues": [
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ],
+      [
+        "true"
+      ]
+    ]
+  },
+  {
+    "name": "attractions-polygon-tags",
+    "collection": "attractions",
+    "params": {
+      "q": "",
+      "query_by": "translatedName.en, translatedCity.en, translatedArea.en",
+      "filter_by": "tags:=indoor && _geoloc:(35.720555299999994, 139.75813820000002, 35.6205553, 139.75813820000002, 35.6205553, 139.6581382, 35.720555299999994, 139.6581382) && hide:!=true",
+      "sort_by": "ratingCounter:desc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 25,
+    "out_of": 2301,
+    "hitIds": [
+      "tokyo tower",
+      "meiji jingu",
+      "roppongi hills",
+      "the national art center tokyo",
+      "shibuya sky",
+      "nakano broadway",
+      "tokyo government building observation decks",
+      "mori art museum",
+      "tokyo dome city",
+      "nezu museum",
+      "tokyo camii diyanet turkish culture center",
+      "sengakuji temple"
+    ],
+    "sortKeyValues": [
+      [
+        71022
+      ],
+      [
+        35795
+      ],
+      [
+        34698
+      ],
+      [
+        18019
+      ],
+      [
+        11325
+      ],
+      [
+        11278
+      ],
+      [
+        5889
+      ],
+      [
+        5862
+      ],
+      [
+        4768
+      ],
+      [
+        4638
+      ],
+      [
+        3198
+      ],
+      [
+        3135
+      ]
+    ]
+  },
+  {
+    "name": "attractions-radius-ja",
+    "collection": "attractions",
+    "params": {
+      "q": "デザインフェスタギャラリー",
+      "query_by": "translatedName.ja, translatedCity.ja, translatedArea.ja",
+      "filter_by": "_geoloc:(35.6705553, 139.7081382, 70km) && hide:!=true",
+      "sort_by": "rating:desc",
+      "per_page": 24,
+      "page": 1
+    },
+    "found": 1,
+    "out_of": 2301,
+    "hitIds": [
+      "design festa gallery"
+    ],
+    "sortKeyValues": [
+      [
+        4.3
+      ]
+    ]
+  },
+  {
+    "name": "attractions-radius-es-page-2",
+    "collection": "attractions",
+    "params": {
+      "q": "Galería",
+      "query_by": "translatedName.es, translatedCity.es, translatedArea.es",
+      "filter_by": "_geoloc:(35.6705553, 139.7081382, 45mi) && hide:!=true",
+      "sort_by": "duration:asc",
+      "per_page": 48,
+      "page": 2
+    },
+    "found": 4,
+    "out_of": 2301,
+    "hitIds": [],
+    "sortKeyValues": []
+  },
+  {
+    "name": "attractions-sort-ratingCounter-desc",
+    "collection": "attractions",
+    "params": {
+      "q": "",
+      "query_by": "translatedName.en, translatedCity.en, translatedArea.en",
+      "filter_by": "hide:!=true",
+      "sort_by": "ratingCounter:desc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 2001,
+    "out_of": 2301,
+    "hitIds": [
+      "universal studios japan",
+      "tokyo disneyland",
+      "tokyo disneysea",
+      "tokyo skytree",
+      "senso ji temple",
+      "tokyo tower",
+      "osaka castle",
+      "fushimi inari taisha",
+      "okinawa churaumi",
+      "nara park",
+      "tsukiji outer market",
+      "kiyomizu dera"
+    ],
+    "sortKeyValues": [
+      [
+        112551
+      ],
+      [
+        102678
+      ],
+      [
+        85073
+      ],
+      [
+        83411
+      ],
+      [
+        71664
+      ],
+      [
+        71022
+      ],
+      [
+        67453
+      ],
+      [
+        66931
+      ],
+      [
+        55369
+      ],
+      [
+        54954
+      ],
+      [
+        53855
+      ],
+      [
+        50233
+      ]
+    ]
+  },
+  {
+    "name": "attractions-sort-rating-desc",
+    "collection": "attractions",
+    "params": {
+      "q": "",
+      "query_by": "translatedName.en, translatedCity.en, translatedArea.en",
+      "filter_by": "hide:!=true",
+      "sort_by": "rating:desc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 2001,
+    "out_of": 2301,
+    "hitIds": [
+      "miyazaki prefectural museum of nature and history",
+      "matsumoto seicho memorial museum",
+      "kimono tea ceremony maikoya",
+      "tea ceremony juan",
+      "owl cafe akihabara",
+      "mipig cafe mozo nagoya",
+      "maidreamin akihabara honten",
+      "maidreamin osaka namba",
+      "okunoin cemetery",
+      "浅草橋 小樽",
+      "hakone craft house",
+      "kyoto samurai and ninja museum with experience"
+    ],
+    "sortKeyValues": [
+      [
+        5
+      ],
+      [
+        5
+      ],
+      [
+        5
+      ],
+      [
+        4.9
+      ],
+      [
+        4.9
+      ],
+      [
+        4.9
+      ],
+      [
+        4.9
+      ],
+      [
+        4.9
+      ],
+      [
+        4.8
+      ],
+      [
+        4.8
+      ],
+      [
+        4.8
+      ],
+      [
+        4.8
+      ]
+    ]
+  },
+  {
+    "name": "attractions-sort--geoloc-35-6705553-139-7081382-asc",
+    "collection": "attractions",
+    "params": {
+      "q": "",
+      "query_by": "translatedName.en, translatedCity.en, translatedArea.en",
+      "filter_by": "hide:!=true",
+      "sort_by": "_geoloc(35.6705553, 139.7081382):asc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 2001,
+    "out_of": 2301,
+    "hitIds": [
+      "design festa gallery",
+      "cat street north side",
+      "ota memorial museum of art",
+      "harajuku takeshita dori street",
+      "meiji jingu museum",
+      "meiji jingu",
+      "yoyogi park",
+      "miyashita park north",
+      "meiji jingu gaien park tokyo",
+      "nezu museum",
+      "taro okamoto memorial museum",
+      "meiji memorial museum"
+    ],
+    "sortKeyValues": [
+      [
+        [
+          35.6705553,
+          139.7081382
+        ]
+      ],
+      [
+        [
+          35.668588,
+          139.7074042
+        ]
+      ],
+      [
+        [
+          35.6693959,
+          139.7049808
+        ]
+      ],
+      [
+        [
+          35.6711984,
+          139.7043696
+        ]
+      ],
+      [
+        [
+          35.6723303,
+          139.7021257
+        ]
+      ],
+      [
+        [
+          35.67639760000001,
+          139.6993259
+        ]
+      ],
+      [
+        [
+          35.6715869,
+          139.6967028
+        ]
+      ],
+      [
+        [
+          35.6622585,
+          139.7019016
+        ]
+      ],
+      [
+        [
+          35.675096,
+          139.7194268
+        ]
+      ],
+      [
+        [
+          35.66225680000001,
+          139.7170937
+        ]
+      ],
+      [
+        [
+          35.66130799999999,
+          139.715583
+        ]
+      ],
+      [
+        [
+          35.6788313,
+          139.7176214
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "attractions-sort-duration-asc",
+    "collection": "attractions",
+    "params": {
+      "q": "",
+      "query_by": "translatedName.en, translatedCity.en, translatedArea.en",
+      "filter_by": "hide:!=true",
+      "sort_by": "duration:asc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 2001,
+    "out_of": 2301,
+    "hitIds": [
+      "sumida river cruise tokyo",
+      "ishiwari zakura",
+      "motoisaka",
+      "nakabashi bridge",
+      "nakahechi daimon saka",
+      "furobashi bridge",
+      "ohashiroka bridge",
+      "yayoi tengu",
+      "yama jigoku beppu",
+      "otaru steam clock",
+      "dutch slope nagasaki",
+      "bell tower of the former matsushiro domain"
+    ],
+    "sortKeyValues": [
+      [
+        0
+      ],
+      [
+        5
+      ],
+      [
+        5
+      ],
+      [
+        5
+      ],
+      [
+        5
+      ],
+      [
+        5
+      ],
+      [
+        5
+      ],
+      [
+        5
+      ],
+      [
+        5
+      ],
+      [
+        5
+      ],
+      [
+        5
+      ],
+      [
+        5
+      ]
+    ]
+  },
+  {
+    "name": "attractions-sort-duration-desc",
+    "collection": "attractions",
+    "params": {
+      "q": "",
+      "query_by": "translatedName.en, translatedCity.en, translatedArea.en",
+      "filter_by": "hide:!=true",
+      "sort_by": "duration:desc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 2001,
+    "out_of": 2301,
+    "hitIds": [
+      "tokyo disneysea",
+      "universal studios japan",
+      "tokyo disneyland",
+      "hamanako pal pal",
+      "nagashima spa land",
+      "legoland japan resort",
+      "huis ten bosch nagasaki",
+      "shima spain village",
+      "japan monkey park inuyama",
+      "adventure world",
+      "kijima kogen park",
+      "himeji central park"
+    ],
+    "sortKeyValues": [
+      [
+        480
+      ],
+      [
+        480
+      ],
+      [
+        480
+      ],
+      [
+        420
+      ],
+      [
+        420
+      ],
+      [
+        420
+      ],
+      [
+        420
+      ],
+      [
+        360
+      ],
+      [
+        360
+      ],
+      [
+        360
+      ],
+      [
+        360
+      ],
+      [
+        360
+      ]
+    ]
+  },
+  {
+    "name": "tours-combined-filters",
+    "collection": "tours",
+    "params": {
+      "q": "",
+      "query_by": "translatedAttractions.en, translatedAttractions.ja",
+      "filter_by": "tags:=indoor && startTime:[360..720] && duration:[0..240] && _geoloc:(43.0686606, 141.3507552, 120km)",
+      "sort_by": "ratingCounter:desc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 1,
+    "out_of": 244,
+    "hitIds": [
+      "30TMObOaeE7FB8Lt38BK"
+    ],
+    "sortKeyValues": [
+      [
+        0
+      ]
+    ]
+  },
+  {
+    "name": "tours-sort-ratingCounter-desc",
+    "collection": "tours",
+    "params": {
+      "q": "",
+      "query_by": "translatedAttractions.en, translatedAttractions.ja",
+      "filter_by": "_geoloc:(43.0686606, 141.3507552, 120km)",
+      "sort_by": "ratingCounter:desc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 5,
+    "out_of": 244,
+    "hitIds": [
+      "i1YFFGqbEwmdtCvkq0w5",
+      "GBkAMz9pCO1DpGOKAzLl",
+      "tk4uvi7zg5kzeJmIUw9b",
+      "udoQXGeUfyVlCXAR49da",
+      "30TMObOaeE7FB8Lt38BK"
+    ],
+    "sortKeyValues": [
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  },
+  {
+    "name": "tours-sort-ratingScore-desc",
+    "collection": "tours",
+    "params": {
+      "q": "",
+      "query_by": "translatedAttractions.en, translatedAttractions.ja",
+      "filter_by": "_geoloc:(43.0686606, 141.3507552, 120km)",
+      "sort_by": "ratingScore:desc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 5,
+    "out_of": 244,
+    "hitIds": [
+      "i1YFFGqbEwmdtCvkq0w5",
+      "GBkAMz9pCO1DpGOKAzLl",
+      "tk4uvi7zg5kzeJmIUw9b",
+      "udoQXGeUfyVlCXAR49da",
+      "30TMObOaeE7FB8Lt38BK"
+    ],
+    "sortKeyValues": [
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  },
+  {
+    "name": "tours-sort-duration-asc",
+    "collection": "tours",
+    "params": {
+      "q": "",
+      "query_by": "translatedAttractions.en, translatedAttractions.ja",
+      "filter_by": "_geoloc:(43.0686606, 141.3507552, 120km)",
+      "sort_by": "duration:asc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 5,
+    "out_of": 244,
+    "hitIds": [
+      "30TMObOaeE7FB8Lt38BK",
+      "tk4uvi7zg5kzeJmIUw9b",
+      "udoQXGeUfyVlCXAR49da",
+      "GBkAMz9pCO1DpGOKAzLl",
+      "i1YFFGqbEwmdtCvkq0w5"
+    ],
+    "sortKeyValues": [
+      [
+        175
+      ],
+      [
+        470
+      ],
+      [
+        470
+      ],
+      [
+        520
+      ],
+      [
+        550
+      ]
+    ]
+  },
+  {
+    "name": "tours-sort-duration-desc",
+    "collection": "tours",
+    "params": {
+      "q": "",
+      "query_by": "translatedAttractions.en, translatedAttractions.ja",
+      "filter_by": "_geoloc:(43.0686606, 141.3507552, 120km)",
+      "sort_by": "duration:desc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 5,
+    "out_of": 244,
+    "hitIds": [
+      "i1YFFGqbEwmdtCvkq0w5",
+      "GBkAMz9pCO1DpGOKAzLl",
+      "tk4uvi7zg5kzeJmIUw9b",
+      "udoQXGeUfyVlCXAR49da",
+      "30TMObOaeE7FB8Lt38BK"
+    ],
+    "sortKeyValues": [
+      [
+        550
+      ],
+      [
+        520
+      ],
+      [
+        470
+      ],
+      [
+        470
+      ],
+      [
+        175
+      ]
+    ]
+  },
+  {
+    "name": "tours-sort--geoloc-43-0686606-141-3507552-asc",
+    "collection": "tours",
+    "params": {
+      "q": "",
+      "query_by": "translatedAttractions.en, translatedAttractions.ja",
+      "filter_by": "_geoloc:(43.0686606, 141.3507552, 120km)",
+      "sort_by": "_geoloc(43.0686606, 141.3507552):asc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 5,
+    "out_of": 244,
+    "hitIds": [
+      "i1YFFGqbEwmdtCvkq0w5",
+      "tk4uvi7zg5kzeJmIUw9b",
+      "udoQXGeUfyVlCXAR49da",
+      "30TMObOaeE7FB8Lt38BK",
+      "GBkAMz9pCO1DpGOKAzLl"
+    ],
+    "sortKeyValues": [
+      [
+        [
+          43.0686606,
+          141.3507552
+        ]
+      ],
+      [
+        [
+          43.0686606,
+          141.3507552
+        ]
+      ],
+      [
+        [
+          43.0686606,
+          141.3507552
+        ]
+      ],
+      [
+        [
+          43.0686606,
+          141.3507552
+        ]
+      ],
+      [
+        [
+          43.2112693,
+          141.001277
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "cities-text",
+    "collection": "cities",
+    "params": {
+      "q": "Sapporo",
+      "query_by": "translatedCity.en, translatedCity.ja, city, translatedCountry.en, country",
+      "sort_by": "city(missing_values: last):asc",
+      "per_page": 5,
+      "page": 1
+    },
+    "found": 11,
+    "out_of": 1901,
+    "hitIds": [
+      "札幌市",
+      "札幌市 中央区",
+      "札幌市 北区",
+      "札幌市 南区",
+      "札幌市 厚別区"
+    ],
+    "sortKeyValues": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
+    ]
+  },
+  {
+    "name": "empty-result",
+    "collection": "attractions",
+    "params": {
+      "q": "local-engine-impossible-query",
+      "query_by": "translatedName.en",
+      "filter_by": "hide:!=true",
+      "sort_by": "ratingCounter:desc",
+      "per_page": 12,
+      "page": 1
+    },
+    "found": 0,
+    "out_of": 2301,
+    "hitIds": [],
+    "sortKeyValues": []
+  }
+]

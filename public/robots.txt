@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Disallow: /account/
+Disallow: /affiliate/
+Disallow: /cancel-tour/
+Disallow: /confirm-tour/
+Disallow: /payment/
+Disallow: /redirect/
+Disallow: /review/
+Disallow: /test/
+Disallow: /account$
+Disallow: /fake-checkout$
+Disallow: /checkout$
+Disallow: /order-complete$
+Disallow: /order-complete-processing$
+Disallow: /verify-with-stripe$
+Disallow: /__/
+
+User-agent: bingbot
+Disallow: /
+
+Sitemap:https://www.dekitabi.com/sitemap.xml
+
+
