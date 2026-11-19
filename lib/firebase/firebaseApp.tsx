@@ -1,7 +1,9 @@
+const firebaseWebApiKey = process.env.NEXT_PUBLIC_FIREBASE_WEB_API_KEY;
+
 const firebaseConfig = {
   // Firebase's browser SDK requires a project API key.  This must be a
   // browser-restricted Firebase key, never a server credential.
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_WEB_API_KEY,
+  apiKey: firebaseWebApiKey,
   authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || "dekitabi.com",
   databaseURL:
     process.env.NEXT_PUBLIC_FIREBASE_DATABASE_URL ||
@@ -30,6 +32,11 @@ import {
 } from "firebase/auth";
 let firebaseApp: FirebaseApp | undefined;
 if (typeof window !== "undefined") {
+  if (!firebaseWebApiKey) {
+    throw new Error(
+      "Missing NEXT_PUBLIC_FIREBASE_WEB_API_KEY. Configure a new browser-restricted Firebase Web API key; do not reuse a previously exposed key."
+    );
+  }
   firebaseApp = getApps()[0] || initializeApp(firebaseConfig);
   const isLocalhost = ["localhost", "127.0.0.1", "::1"].includes(
     window.location.hostname
