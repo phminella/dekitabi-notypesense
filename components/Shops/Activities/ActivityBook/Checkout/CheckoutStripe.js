@@ -6,7 +6,7 @@ import { useState, useEffect, useRef } from "react";
 import CheckoutStripeElement from "./CheckoutStripeElement";
 import convertFromYen from "../../../../../lib/convertFromYen";
 import Skeleton from "@mui/material/Skeleton";
-const stripePromise = loadStripe(process.env.STRIPE_TEST_PUBLISHABLE_KEY);
+const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_TEST_PUBLISHABLE_KEY);
 const CheckoutStripe = ({
   t,
   complete,

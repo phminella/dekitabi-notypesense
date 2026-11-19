@@ -236,18 +236,6 @@ const nextConfig = {
     // sets the Content-Disposition header (inline or attachment)
     contentDispositionType: "inline",
   },
-  env: {
-    STRIPE_PUBLISHABLE_KEY: process.env.STRIPE_PUBLISHABLE_KEY,
-    STRIPE_TEST_PUBLISHABLE_KEY: process.env.STRIPE_TEST_PUBLISHABLE_KEY,
-    STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY,
-    STATIC_DIR: process.env.STATIC_DIR,
-    FIREBASE_API_KEY: process.env.X_FIREBASE_API_KEY,
-    FIREBASE_API_ID: process.env.X_FIREBASE_API_ID,
-    FIREBASE_MESSAGING_SENDER_ID: process.env.X_FIREBASE_MESSAGING_SENDER_ID,
-    I18NEXT_DEFAULT_CONFIG_PATH: process.env.I18NEXT_DEFAULT_CONFIG_PATH,
-    ACTIVITY_SECRET: process.env.ACTIVITY_SECRET,
-    SHOP_SECRET: process.env.SHOP_SECRET,
-  },
   async headers() {
     return [
       // {

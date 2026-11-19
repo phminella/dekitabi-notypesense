@@ -4,7 +4,7 @@ import { getFunctions, httpsCallable } from "firebase/functions";
 import CheckoutStripeElement from "./CheckoutStripeElement";
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
-const stripePromise = loadStripe(process.env.STRIPE_TEST_PUBLISHABLE_KEY);
+const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_TEST_PUBLISHABLE_KEY);
 const CheckoutStripe = ({
   getTotal,
   currency,

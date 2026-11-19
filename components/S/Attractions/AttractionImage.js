@@ -57,7 +57,6 @@ const AttractionImage = ({
         //             attractionPhotos?.length > 0
         //               ? attractionPhotos[photo]
         //               : "https://www.dekitabi.com/ok.png"
-        //           }&key=AIzaSyAlNqEDWNfqXc-Kkd-ZfOnhxK5f06MKK5c`
         //       : "https://www.dekitabi.com/ok.png"
         //   }
         //   quality={50}

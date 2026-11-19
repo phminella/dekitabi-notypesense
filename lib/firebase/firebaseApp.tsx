@@ -1,8 +1,7 @@
 const firebaseConfig = {
-  apiKey:
-    process.env.NEXT_PUBLIC_FIREBASE_API_KEY ||
-    process.env.FIREBASE_API_KEY ||
-    "AIzaSyCYzcnQvFLD0CY0i5ZSybuS-D4g6WNSd4k",
+  // Firebase's browser SDK requires a project API key.  This must be a
+  // browser-restricted Firebase key, never a server credential.
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_WEB_API_KEY,
   authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || "dekitabi.com",
   databaseURL:
     process.env.NEXT_PUBLIC_FIREBASE_DATABASE_URL ||
